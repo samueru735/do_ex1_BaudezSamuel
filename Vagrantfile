@@ -3,4 +3,5 @@ Vagrant.configure(2) do |config|
   config.vm.hostname = "samuel.be"
   config.vm.network "forwarded_port", guest:80, host: 8090
   config.vm.provision "shell", path: "provision_nginx.sh"
+  config.vm.provision "shell", path: "provision_php.sh"
 end
