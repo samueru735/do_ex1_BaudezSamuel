@@ -7,7 +7,7 @@ if [ -e "$file" ]
 then	
 	rm "$file"
 fi
-ln -s /vagrant/do_ex1_site \
-/etc/nginx/sites-enabled/
+
+ln -s /vagrant/do_ex1_site /etc/nginx/sites-enabled/
 
 service nginx restart

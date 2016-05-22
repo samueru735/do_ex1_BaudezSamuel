@@ -1,5 +1,5 @@
-//apt-get update
-//apt-get upgrade -y
+#apt-get update
+#apt-get upgrade -y
 apt-get install php5 php5-fpm -y
 
 file="/etc/nginx/sites-enabled/default"
